@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Spots_Enhancing_app</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="enhanced_sports_trainer">ENHANCED SPORTS TRAINER</string>
+    <string name="register">Register</string>
+    <string name="Password">Password</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="logout">logout</string>
+    <string name="Register">Register</string>
+    <string name="Login">Login</string>
+    <string name="home">Home</string>
+    <string name="tracker">Tracker</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_email">User Email</string>
+    <string name="enhanced_sport_trainer">Enhanced Sport Trainer</string>
+    <string name="tutorials">Tutorials</string>
+    <string name="drills">Drills</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="welcome_to_enhanced_sport_trainer">Welcome to Enhanced Sport Trainer</string>
+    <string name="Drill">Drill</string>
+    <string name="submit">Submit</string>
+    <string name="enter_your_result_here">Enter your result here</string>
+    <string name="record_your_result">Record your result</string>
+    <string name="you_can_view_your_progress_in_the_tracker_page">You can view your progress in the tracker page</string>
+    <string name="go_to_drills">Go To Drills</string>
+    <string name="back"><![CDATA[<--Back]]></string>
+    <string name="embark_on_a_journey_of_athletic_excellence_the_ultimate_destination_for_sports_enthusiasts_of_all_levels_whether_you_re_a_beginner_looking_to_kickstart_your_fitness_journey_or_a_seasoned_athlete_striving_for_peak_performance_our_app_is_designed_with_you_in_mind">Embark on a journey of athletic excellence -The ultimate destination for sports enthusiasts of all levels! Whether you\'re a beginner looking to kickstart your fitness journey or a seasoned athlete striving for peak performance, our app is designed with you in mind</string>
+    <string name="Tracker">Tracker</string>
+    <string name="different_types_of_sports_will_be_implemented_soon">Different types of sports will be implemented soon!</string>
+</resources>

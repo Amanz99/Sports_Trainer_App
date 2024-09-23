@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TutorialFragment"
+    android:background="@color/grey">
+
+    <!-- Include the header layout -->
+    <include layout="@layout/fragment_header" />
+
+    <!-- Back button -->
+    <TextView
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/back"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <!-- Tutorial title -->
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tutorial"
+        android:fontFamily="@font/oswald_variablefont_wght"
+        android:textStyle="bold"
+        android:textSize="60sp"
+        android:textColor="@android:color/black"/>
+
+    <!-- YouTube WebView -->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Text below the video -->
+    <TextView
+        android:id="@+id/tutorial_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+
+        android:text="Watch the video above to learn new skills.
+        Once you feel like you have mastered each skill you can challenge yourself by doing drills"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <!-- Button to go to drills -->
+    <Button
+        android:id="@+id/go_to_drills_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="@string/go_to_drills"/>
+
+</LinearLayout>

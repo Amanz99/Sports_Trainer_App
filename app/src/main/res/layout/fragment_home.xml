@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/grey"
+    tools:context=".HomeFragment">
+
+    <include layout="@layout/fragment_header" />
+
+
+
+    <TextView
+        android:id="@+id/home_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/oswald_variablefont_wght"
+        android:text="@string/welcome_to_enhanced_sport_trainer"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tutorial_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-90dp"
+        android:fontFamily="@font/oswald_variablefont_wght"
+        android:text="@string/embark_on_a_journey_of_athletic_excellence_the_ultimate_destination_for_sports_enthusiasts_of_all_levels_whether_you_re_a_beginner_looking_to_kickstart_your_fitness_journey_or_a_seasoned_athlete_striving_for_peak_performance_our_app_is_designed_with_you_in_mind"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/extra_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/oswald_variablefont_wght"
+        android:text="As this is the beginning of the apps launch, only football drills and tutorials are available. More sports will be coming soon. Start off by learning skills by watching tutoriials, then challenging yourself by doing drills. You can record and track your progress in the tracker"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/start_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="Start Now!"
+        android:textSize="50sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/oswald_variablefont_wght"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="590dp">
+
+        <Button
+            android:id="@+id/button_tutorials"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/tutorials"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/button_drills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/drills"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

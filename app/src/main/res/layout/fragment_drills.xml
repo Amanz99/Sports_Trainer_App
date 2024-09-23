@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DrillsFragment"
+    android:background="@color/grey">
+
+    <!-- Include the header layout -->
+    <include layout="@layout/fragment_header" />
+
+    <!-- Back button -->
+    <TextView
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/back"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <!-- Drill title -->
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Drill"
+        android:fontFamily="@font/oswald_variablefont_wght"
+        android:textStyle="bold"
+        android:textSize="60sp"
+        android:textColor="@android:color/black"/>
+
+
+    <!-- YouTube WebView -->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Record result instruction -->
+    <TextView
+        android:id="@+id/record_result_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/record_your_result"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <!-- EditText for recording result -->
+    <EditText
+        android:id="@+id/result_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/enter_your_result_here"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="@string/submit"/>
+
+    <!-- View results instruction -->
+    <TextView
+        android:id="@+id/view_results_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/you_can_view_your_progress_in_the_tracker_page"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
